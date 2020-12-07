@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+
+* {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(182, 129, 184);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+aside {
+    display: flex;
+    top: 0;
+    background-color: rgb(214, 169, 216);
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    top: 70px;
+    z-index: 1000;
+    padding: 10px;
+
+}
+
+.iCon {
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+}
+
+
+li a {
+    text-decoration: none;
+    color: rgb(65, 65, 65);
+    display: block;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+li {
+    border-bottom: 5px solid transparent;
+}
+
+li:hover {
+    border-bottom: 5px solid white;
+}
+
+header {
+    background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55e510c0-cf6a-4dd1-a5ca-ff300cfbe894/dcria58-2e693d05-928e-48df-b027-5a38da058584.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNTVlNTEwYzAtY2Y2YS00ZGQxLWE1Y2EtZmYzMDBjZmJlODk0XC9kY3JpYTU4LTJlNjkzZDA1LTkyOGUtNDhkZi1iMDI3LTVhMzhkYTA1ODU4NC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.dUHm-bYMTIzY-cEpDspyycYUYws2riO7Fmbubng_SnY);
+    width: 100%;
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 150px;
+}
